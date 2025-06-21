@@ -1,4 +1,4 @@
-### Hi there 👋, Om
+### Hi there I'm OM 
 #### Backend Development, REST API, Building Frameworks
 I'm Om Kulkarni a Backend Developer, I love to breakdown difficult appearing logic into simpler one with my approach for development. I really enjoy working on projects which really create an impact towards a better technological world !
 
