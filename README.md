@@ -2,7 +2,7 @@
 #### Backend Development, REST API, Building Frameworks
 I'm Om Kulkarni a Backend Developer, I love to breakdown difficult appearing logic into simpler one with my approach for development. I really enjoy working on projects which really create an impact towards a better technological world !
 
-Skills: REACT / JS / HTML / CSS / NodeJS
+Skills: GO / REACT / JS / HTML / CSS / NodeJS / MongoDB / Postgres 
 
 - 🔭 I’m currently working on Golang, Apache Kafka 
 - 🌱 I’m currently learning Microservices Architecture 
@@ -18,8 +18,4 @@ Skills: REACT / JS / HTML / CSS / NodeJS
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=om7057&show_icons=true)  
 
 ![Vaunt Badge](https://api.vaunt.dev/v1/github/entities/om7057/contributions?format=svg&private=false)  
-
-![GitHub metrics](https://metrics.lecoq.io/om7057)  
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=om7057)  
 
