@@ -6,7 +6,7 @@ Skills: GO / REACT / JS / HTML / CSS / NodeJS / MongoDB / Postgres
 
 - 🔭 I’m currently working on Golang, Apache Kafka 
 - 🌱 I’m currently learning Microservices Architecture 
-- 👯 I’m looking to collaborate on various open source projects 
+- 🤝 I’m looking to collaborate on various open source projects 
 - 🤔 I’m looking for help with growing my network 
 - 📫 How to reach me: Via my linkedin profile : [https://www.linkedin.com/in/om-kulkarni-460819250/](url)
 
