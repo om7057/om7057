@@ -8,7 +8,7 @@ Skills: GO / REACT / JS / HTML / CSS / NodeJS / MongoDB / Postgres
 - 🌱 I’m currently learning Microservices Architecture 
 - 🤝 I’m looking to collaborate on various open source projects 
 - 🤔 I’m looking for help with growing my network 
-- 📫 How to reach me: Via my linkedin profile : [https://www.linkedin.com/in/om-kulkarni-460819250/](url)
+- 📫 How to reach me: Via my linkedin profile : [https://www.linkedin.com/in/om7057/](url)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=om7057)](https://github.com/ryo-ma/github-profile-trophy)
 
