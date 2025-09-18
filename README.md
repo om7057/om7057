@@ -9,7 +9,5 @@ Skills: GO / REACT / JS / HTML / CSS / NodeJS / MongoDB / Postgres
 - 🤝 I’m looking to collaborate on various open source projects 
 - 🤔 I’m looking for help with growing my network 
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=om7057&show_icons=true)  
-
 ![Vaunt Badge](https://api.vaunt.dev/v1/github/entities/om7057/contributions?format=svg&private=false)  
 
