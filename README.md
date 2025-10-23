@@ -9,5 +9,4 @@ Skills: GO / REACT / JS / HTML / CSS / NodeJS / MongoDB / Postgres
 - 🤝 I’m looking to collaborate on various open source projects 
 - 🤔 I’m looking for help with growing my network 
 
-![Vaunt Badge](https://api.vaunt.dev/v1/github/entities/om7057/contributions?format=svg&private=false)  
 
