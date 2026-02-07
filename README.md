@@ -33,18 +33,6 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
 
 ---
 
-## 🌐 Connect with me
-<p align="center">
-  <a href="https://www.linkedin.com/in/om7057/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28" />
-  </a>
-  <a href="https://x.com/kulkarniom7057" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=x&color=000000&logoColor=white&style=for-the-badge" height="28" />
-  </a>
-</p>
-
----
-
 ## 📊 GitHub Stats
 <p align="center">
   <img
@@ -72,4 +60,16 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
     src="https://raw.githubusercontent.com/om7057/om7057/output/snake.svg"
     alt="snake contribution graph"
   />
+</p>
+
+---
+
+## 🌐 Connect with me
+<p align="center">
+  <a href="https://www.linkedin.com/in/om7057/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28" />
+  </a>
+  <a href="https://x.com/kulkarniom7057" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=x&color=000000&logoColor=white&style=for-the-badge" height="28" />
+  </a>
 </p>
