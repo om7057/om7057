@@ -65,18 +65,10 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
 
 ---
 
-## 🕹️ Contribution Graph
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/om7057/om7057/output/pacman-contribution-graph-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/om7057/om7057/output/pacman-contribution-graph.svg"
-  />
+## 🐍 Contribution Graph
+<p align="center">
   <img
-    alt="pacman contribution graph"
-    src="https://raw.githubusercontent.com/om7057/om7057/output/pacman-contribution-graph.svg"
+    src="https://raw.githubusercontent.com/om7057/om7057/output/snake.svg"
+    alt="snake contribution graph"
   />
-</picture>
+</p>
