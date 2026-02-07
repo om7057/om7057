@@ -1,7 +1,7 @@
 <h1 align="center">Hey Om here👋 What's Up?</h1>
 
 <h3 align="center">
-Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
+Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source Enthusiast
 </h3>
 
 <p align="center">
