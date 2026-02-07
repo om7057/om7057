@@ -21,7 +21,7 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Stats
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=om7057&theme=github_dark" height="150" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=om7057&theme=github_dark" height="150" />
@@ -34,7 +34,7 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 
 ---
 
-## 🐍 Contribution Graph
+## 💡 Contribution Graph
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/om7057/om7057/output/snake.svg"
