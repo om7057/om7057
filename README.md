@@ -28,15 +28,19 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
     height="160"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=om7057&theme=github_dark&utcOffset=5.5"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=om7057&theme=github_dark"
     height="160"
   />
 </p>
 
 <p align="center">
   <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=om7057&theme=github_dark&utcOffset=5.5"
+    height="160"
+  />
+  <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=om7057&theme=github_dark"
-    height="200"
+    height="160"
   />
 </p>
 
