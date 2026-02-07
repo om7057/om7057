@@ -77,14 +77,14 @@ Fun fact: I enjoy debugging distributed systems more than writing new features ð
 
 <div align="center">
   <img
-    src="https://streak-stats.demolab.com?user=om7057&theme=dracula&border_radius=5"
+    src="https://streak-stats.demolab.com?user=om7057&theme=dracula"
     height="150"
     alt="GitHub streak stats"
   />
   <img
-    src="https://github-profile-trophy.vercel.app?username=om7057&theme=dracula&row=1&column=6"
+    src="https://github-readme-stats.vercel.app/api?username=om7057&show_icons=true&theme=dracula"
     height="150"
-    alt="GitHub trophies"
+    alt="GitHub stats"
   />
 </div>
 
