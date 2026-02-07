@@ -14,31 +14,33 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
 
 ### 💻 Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,cpp,java,js,py" height="60" />
+  <img src="https://skillicons.dev/icons?i=go,cpp,java,js,py,sql" height="60" />
 </p>
 
 ### 🗄️ Databases
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" height="60" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,cassandra,dynamodb" height="60" />
 </p>
 
 ### ☁️ Infra & Systems
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,kafka,aws,linux,git" height="60" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,kafka,aws,linux,git,gitlab,githubactions" height="60" />
+</p>
+
+### 🔧 Tools & Frameworks
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,postman,vscode,bash,vim,grafana" height="60" />
 </p>
 
 ---
 
 ## 🌐 Connect with me
 <p align="center">
-  <a href="https://www.linkedin.com/in/om-kulkarni" target="_blank">
+  <a href="https://www.linkedin.com/in/om7057/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28" />
   </a>
-  <a href="https://twitter.com/om7057" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&logoColor=white&style=for-the-badge" height="28" />
-  </a>
-  <a href="https://dev.to/om7057" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&color=0A0A0A&logoColor=white&style=for-the-badge" height="28" />
+  <a href="https://x.com/kulkarniom7057" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=x&color=000000&logoColor=white&style=for-the-badge" height="28" />
   </a>
 </p>
 
