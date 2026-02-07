@@ -12,22 +12,22 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
 
 ## 🧠 Tech Stack
 
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center" width="140"><b>💻 Languages</b></td>
-    <td align="center" width="140"><b>🗄️ Databases</b></td>
+    <td align="center" width="50%"><b>💻 Languages</b></td>
+    <td align="center" width="50%"><b>🗄️ Databases</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=go,cpp,java,js,py&perline=5" height="50" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,cassandra&perline=5" height="50" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=go,cpp,java,js,py&perline=5" height="70" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,cassandra&perline=5" height="70" /></td>
   </tr>
   <tr>
-    <td align="center" width="140"><b>☁️ Infra & DevOps</b></td>
-    <td align="center" width="140"><b>🔧 Tools</b></td>
+    <td align="center" width="50%"><b>☁️ Infra & DevOps</b></td>
+    <td align="center" width="50%"><b>🔧 Tools</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=docker,kubernetes,kafka,aws,linux&perline=5" height="50" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git,gitlab,githubactions,postman,vscode&perline=5" height="50" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=docker,kubernetes,kafka,aws,linux,git&perline=6" height="70" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=gitlab,githubactions,postman,vscode,bash,vim&perline=6" height="70" /></td>
   </tr>
 </table>
 
