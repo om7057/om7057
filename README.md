@@ -5,93 +5,67 @@ Backend & Distributed Systems Engineer | Go • Event-Driven Systems • Cloud
 </h3>
 
 <p align="center">
-Fun fact: I enjoy debugging distributed systems more than writing new features 😄
+  Fun fact: I make systems scalable so I can sleep peacefully 😄
 </p>
 
-###
+---
 
-<!-- ===================== SKILLS ===================== -->
+## 🧠 Tech Stack
 
-<div align="center">
-  <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="cpp logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="60" alt="java logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo" />
-</div>
+### 💻 Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,cpp,java,js,py" height="60" />
+</p>
 
-<br/>
+### 🗄️ Databases
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" height="60" />
+</p>
 
-<div align="center">
-  <!-- Databases -->
-  <img src="https://skillicons.dev/icons?i=postgres" height="60" alt="postgresql logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="60" alt="mongodb logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=redis" height="60" alt="redis logo" />
-</div>
+### ☁️ Infra & Systems
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,kafka,aws,linux,git" height="60" />
+</p>
 
-<br/>
+---
 
-<div align="center">
-  <!-- Infra & Systems -->
-  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="kubernetes logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=kafka" height="60" alt="kafka logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="aws logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo" />
-</div>
-
-###
-
-<!-- ===================== SOCIALS ===================== -->
-
-<div align="center">
+## 🌐 Connect with me
+<p align="center">
   <a href="https://www.linkedin.com/in/om-kulkarni" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28" />
   </a>
   <a href="https://twitter.com/om7057" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&logoColor=white&style=for-the-badge" height="28" />
   </a>
   <a href="https://dev.to/om7057" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&color=0A0A0A&logoColor=white&style=for-the-badge" height="28" />
   </a>
-</div>
+</p>
 
-###
+---
 
-<!-- ===================== STATS ===================== -->
-
-<div align="center">
+## 📊 GitHub Stats
+<p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=om7057&theme=dracula"
-    height="150"
-    alt="GitHub streak stats"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=om7057&theme=github_dark"
+    height="160"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api?username=om7057&show_icons=true&theme=dracula"
-    height="150"
-    alt="GitHub stats"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=om7057&theme=github_dark&utcOffset=5.5"
+    height="160"
   />
-</div>
+</p>
 
-###
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=om7057&theme=github_dark"
+    height="200"
+  />
+</p>
 
-<!-- ===================== PACMAN ===================== -->
+---
 
+## 🕹️ Contribution Graph
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
