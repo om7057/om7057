@@ -44,6 +44,15 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 
 ---
 
+## 🚀 Open Source Contributions
+
+### GoFr Framework: ScyllaDB Migration Engine | Go, Python, ScyllaDB, NoSQL, Unit Testing [PR#2085] July — Aug 2025
+- Contributed to the GoFr framework (14K+ stars) by implementing a ScyllaDB migration engine supporting 100K+ QPS with automated schema versioning and rollback.
+- Developed automated testing infrastructure using `gomock`, achieving 95%+ unit test coverage and improving release quality, CI/CD reliability, and regression prevention.
+
+Final Merged PR Link: https://github.com/gofr-dev/gofr/pull/2085
+
+
 ## 🌐 Connect with me
 <p align="center">
   <a href="https://www.linkedin.com/in/om7057/" target="_blank">
