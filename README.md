@@ -46,11 +46,11 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 
 ## 🚀 Open Source Contributions
 
-### OpenTelemetry C++ SDK | C++17, YAML, CMake, Google Test, clang-format, IWYU [2025]
+### OpenTelemetry C++ SDK | C++17, YAML, CMake, Google Test, clang-format, IWYU [June 2026]
 - Implemented missing `minimum_severity` and `trace_based` attributes for `LoggerConfig` in the declarative (file-based) configuration spec, closing a tracked feature gap by extending the config struct and updating the YAML parser with correct default value handling.
 - Added integration tests in `yaml_logs_test.cc` covering default values, explicit severity levels, and trace-based filtering; resolved CI failures across clang-format, markdownlint, and IWYU checks for all three build presets.
 
-### GoFr Framework: ScyllaDB Migration Engine | Go, ScyllaDB, PostgreSQL, Docker, gomock [PR#2085] Jul — Aug 2025
+### GoFr Framework: ScyllaDB Migration Engine | Go, ScyllaDB, PostgreSQL, Docker, gomock Jul — Aug 2025
 - Contributed ScyllaDB migration support to the GoFr framework (14K+ stars), enabling schema migration workflows for distributed NoSQL systems and extending framework compatibility beyond traditional relational backends.
 - Engineered a `gomock`-based testing infrastructure (MockScyllaDB) for deterministic unit testing and designed a sample migration pipeline supporting table versioning, schema evolution, and edge-case validation (schema drift, version conflicts, rollback scenarios).
 
