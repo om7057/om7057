@@ -21,6 +21,48 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 
 ---
 
+## ⚙️ What I've Built
+
+**Microservices & Event-Driven Systems**
+- Production Go microservices with REST and gRPC APIs; real-time streaming over NATS JetStream (at-least-once) and Kafka-based event pipelines.
+- Concurrent-safe subscription management (`sync.Map`) with reconnect-and-replay for fault-tolerant stream recovery.
+- Hystrix-inspired circuit breaker with tuned thresholds and fallback strategies for graceful degradation.
+
+**Observability & Distributed Tracing**
+- gRPC distributed tracing via interceptor chains, propagating trace IDs through HTTP/2 metadata for full request lifecycle correlation.
+- Structured logging across REST, gRPC, and async CGo layers with correlation IDs feeding into ELK/Loki pipelines.
+- REST middleware with pre/post hooks, latency tracking, and INFO/WARN/ERROR classification for SLI/SLO alerting.
+- Trace-aware logging across Go↔C++ FFI boundary, maintaining correlation through async SDK responses.
+
+**Infrastructure, Secrets & Configuration**
+- 12-factor multi-environment config with runtime selection via entrypoint scripts, eliminating cross-environment bleed.
+- Secrets pipeline using runtime injection and file materialization with strict Unix permissions (0600/0700) for zero-code rotation.
+- Multi-stage Docker builds with environment-driven config binding at container startup.
+
+**Databases & Scalability**
+- PostgreSQL (Aurora) sharding with partner-based shard mapping and cache-first reads for horizontal scalability.
+- Shard-aware data routing with entitlement validation and controlled ingestion/retention pipelines.
+
+**Concurrency & Systems**
+- Fail-fast singleton init via `sync.Once` with strict dependency ordering, preventing nil-pointer crashes under load.
+- PID 1 signal handling, file descriptor lifecycle, TCP keepalive tuning, and cooperative cancellation via `context.Context`.
+
+---
+
+## 🚀 Open Source Contributions
+
+### OpenTelemetry C++ SDK | C++17, YAML, CMake, Google Test | Jun 2026
+- Added `minimum_severity` and `trace_based` fields to `LoggerConfig`, updating the YAML parser with correct defaults and resolving CI failures across clang-format, markdownlint, and IWYU for all three build presets.
+- Added integration tests in `yaml_logs_test.cc` covering default values, explicit severity levels, and trace-based filtering scenarios.
+
+### GoFr Framework — ScyllaDB Migration Support | Go, ScyllaDB, gomock | Jul – Aug 2025
+- Contributed ScyllaDB migration support to GoFr (14K+ stars), enabling schema migration workflows for distributed NoSQL systems.
+- Built `gomock`-based testing infra (`MockScyllaDB`) and a sample migration pipeline covering table versioning, schema evolution, and rollback edge cases.
+
+Merged PR: https://github.com/gofr-dev/gofr/pull/2085
+
+---
+
 ## 📊 Stats
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=om7057&theme=github_dark" height="150" />
@@ -43,19 +85,6 @@ Backend & Distributed Systems | Event-Driven Systems • DevOps | Open Source En
 </p>
 
 ---
-
-## 🚀 Open Source Contributions
-
-### OpenTelemetry C++ SDK | C++17, YAML, CMake, Google Test, clang-format, IWYU [June 2026]
-- Implemented missing `minimum_severity` and `trace_based` attributes for `LoggerConfig` in the declarative (file-based) configuration spec, closing a tracked feature gap by extending the config struct and updating the YAML parser with correct default value handling.
-- Added integration tests in `yaml_logs_test.cc` covering default values, explicit severity levels, and trace-based filtering; resolved CI failures across clang-format, markdownlint, and IWYU checks for all three build presets.
-
-### GoFr Framework: ScyllaDB Migration Engine | Go, ScyllaDB, PostgreSQL, Docker, gomock Jul to Aug 2025
-- Contributed ScyllaDB migration support to the GoFr framework (14K+ stars), enabling schema migration workflows for distributed NoSQL systems and extending framework compatibility beyond traditional relational backends.
-- Engineered a `gomock`-based testing infrastructure (MockScyllaDB) for deterministic unit testing and designed a sample migration pipeline supporting table versioning, schema evolution, and edge-case validation (schema drift, version conflicts, rollback scenarios).
-
-Final Merged PR Link: https://github.com/gofr-dev/gofr/pull/2085
-
 
 ## 🌐 Connect with me
 <p align="center">
