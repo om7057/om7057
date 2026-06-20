@@ -114,8 +114,14 @@ Backend & Distributed Systems &nbsp;•&nbsp; Event-Driven Architecture &nbsp;�
 ## 🌐 Connect
 
 <p align="center">
+  <a href="https://om-kulk.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=vercel&color=000000&logoColor=white&style=for-the-badge" height="28" />
+  </a>
   <a href="https://www.linkedin.com/in/om7057/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28" />
+  </a>
+  <a href="https://medium.com/@om7057" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&color=000000&logoColor=white&style=for-the-badge" height="28" />
   </a>
   <a href="https://x.com/kulkarniom7057" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Twitter&logo=x&color=000000&logoColor=white&style=for-the-badge" height="28" />
