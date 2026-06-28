@@ -1,11 +1,11 @@
-<h1 align="center">Hey Om here 👋</h1>
+<h1 align="center">Hey! Om here 👋</h1>
 
 <h3 align="center">
 Backend & Distributed Systems &nbsp;•&nbsp; Event-Driven Architecture &nbsp;•&nbsp; Open Source
 </h3>
 
 <p align="center">
-  Fun fact: I make systems scalable so I can sleep peacefully 😄
+  Fun fact: I make systems scalable so I can sleep peacefully :)
 </p>
 
 ---
