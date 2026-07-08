@@ -10,6 +10,28 @@ Backend & Distributed Systems &nbsp;•&nbsp; Event-Driven Architecture &nbsp;�
 
 ---
 
+## 🚀 Open Source Contributions
+
+<p align="center">
+  <a href="https://github.com/prometheus/prometheus/pull/19120">
+    <img src="https://img.shields.io/badge/Prometheus_TSDB-Silent_Leak_Fix_%7C_errors.Join_%7C_Multi--Block_Queries-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/open-telemetry/opentelemetry-cpp/pull/4131">
+    <img src="https://img.shields.io/badge/OpenTelemetry_C%2B%2B_SDK-LoggerConfig_%7C_min__severity_%26_trace__based_%7C_YAML_Parser-F5A623?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/gofr-dev/gofr/pull/2085">
+    <img src="https://img.shields.io/badge/GoFr_Framework_(14K⭐)-ScyllaDB_Migration_Support_%7C_gomock_%7C_Schema_Evolution-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  </a>
+</p>
+
+---
+
 ## 💻 Tech Stack
 
 <p align="center">
@@ -63,28 +85,6 @@ Backend & Distributed Systems &nbsp;•&nbsp; Event-Driven Architecture &nbsp;�
   <img src="https://img.shields.io/badge/context.Context-Cooperative_Cancellation-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/PID_1-Signal_Handling-333333?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/TCP_Keepalive-FD_Lifecycle_Mgmt-333333?style=for-the-badge&logo=linux&logoColor=white" />
-</p>
-
----
-
-## 🚀 Open Source Contributions
-
-<p align="center">
-  <a href="https://github.com/open-telemetry/opentelemetry-cpp">
-    <img src="https://img.shields.io/badge/OpenTelemetry_C%2B%2B_SDK-LoggerConfig_%7C_min__severity_%26_trace__based-F5A623?style=for-the-badge&logo=opentelemetry&logoColor=white" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B17-YAML_Parser_%7C_Integration_Tests_%7C_CI_Fix-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/gofr-dev/gofr/pull/2085">
-    <img src="https://img.shields.io/badge/GoFr_Framework_(14K⭐)-ScyllaDB_Migration_Support-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/gomock-MockScyllaDB_%7C_Schema_Evolution_%7C_Rollback_Tests-6CD5E7?style=for-the-badge&logo=scylladb&logoColor=white" />
 </p>
 
 ---
