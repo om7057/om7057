@@ -5,7 +5,7 @@ Backend & Distributed Systems &nbsp;â€¢&nbsp; Event-Driven Architecture &nbsp;â€
 </h3>
 
 <p align="center">
-  I make systems scalable so I can sleep peacefully :)
+  I make the systems scalable so I can sleep peacefully :)
 </p>
 
 ---
