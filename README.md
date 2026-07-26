@@ -16,7 +16,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 |  |  |
 |---|---|
-| **Merged upstream** | Contributions across Prometheus, OpenTelemetry C++ SDK, and GoFr |
+| **Merged upstream** | Prometheus · OpenTelemetry C++ SDK · GoFr |
 | **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
 | **Focus** | TSDB internals · specification compliance · declarative configuration · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
@@ -40,32 +40,35 @@ The same shape appeared in the OpenTelemetry C++ SDK. `EnvironmentCarrier::Norma
 did not normalize the empty key, so `Get("")` and `Set("")` quietly operated on the wrong
 slot rather than erroring, a spec violation against
 [opentelemetry-specification#5163](https://github.com/open-telemetry/opentelemetry-specification/issues/5163).
-The fix ([PR #4264](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264)) also
-removed a now-unreachable `!empty()` guard, documented why the caching layer is a `string_view`
-lifetime and thread-safety *requirement* rather than an optimization, and added two regression
-tests verified to fail without the patch.
+The fix also removed a now-unreachable `!empty()` guard, documented why the caching layer is a
+`string_view` lifetime and thread-safety *requirement* rather than an optimization, and added
+two regression tests verified to fail without the patch.
+[Issue #4190](https://github.com/open-telemetry/opentelemetry-cpp/issues/4190) ·
+[PR #4264](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264)
+
+The Metrics SDK had the same problem one layer up: cardinality limits were hardcoded to 2000,
+and configuration supplied by the user was logged as unsupported and thrown away. I added a
+`CardinalityLimits` struct with per-instrument-type fields, exposed
+`GetCardinalityLimit(InstrumentType)` on `MetricReader` and as a pure virtual on the
+`CollectorHandle` interface, and resolved the declarative YAML path through a zero-as-unset
+sentinel so an explicit `2000` counts as a real override rather than an absent one. The same
+change fixed undefined behaviour from uninitialized configuration members, and the default
+stayed a namespace-level `constexpr` to avoid the out-of-class definition C++14 would demand
+of an ODR-used static member.
+[Issue #3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292) ·
+[PR #4188](https://github.com/open-telemetry/opentelemetry-cpp/pull/4188)
 
 Same SDK, different gap: `minimum_severity` and `trace_based` were missing from `LoggerConfig`
 in the declarative (YAML) configuration path, so file-configured loggers silently ignored
 severity filtering. Added both fields to the parser with spec-aligned defaults, plus
 integration tests covering default, explicit-severity, and trace-based filtering.
+[Issue #4130](https://github.com/open-telemetry/opentelemetry-cpp/issues/4130) ·
 [PR #4131](https://github.com/open-telemetry/opentelemetry-cpp/pull/4131)
 
 In GoFr I added ScyllaDB migration support, extending the framework's schema-migration path
 beyond relational backends, with a `gomock`-based harness (`MockScyllaDB`) so migration logic
 is testable without a live cluster.
 [PR #2085](https://github.com/gofr-dev/gofr/pull/2085)
-
----
-
-## Contributions
-
-| Project | Contribution | Links |
-|---|---|---|
-| **Prometheus** | TSDB querier cleanup swallowed `Close()` failures; used `errors.Join()` to surface concurrent errors on multi-block queries | [PR](https://github.com/prometheus/prometheus/pull/19120) · [Issue](https://github.com/prometheus/prometheus/issues/19114) |
-| **OpenTelemetry C++** | `EnvironmentCarrier` spec compliance: empty keys silently resolved to the wrong slot in `NormalizeKey()` | [PR](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264) · [Issue](https://github.com/open-telemetry/opentelemetry-cpp/issues/4190) |
-| **OpenTelemetry C++** | Added `minimum_severity` and `trace_based` to the declarative YAML config parser for `LoggerConfig` | [PR](https://github.com/open-telemetry/opentelemetry-cpp/pull/4131) · [Issue](https://github.com/open-telemetry/opentelemetry-cpp/issues/4130) |
-| **GoFr** | ScyllaDB migration support with `gomock`-based test infrastructure for schema evolution and rollback | [PR](https://github.com/gofr-dev/gofr/pull/2085) |
 
 ---
 
