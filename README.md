@@ -8,7 +8,7 @@ Backend &amp; Distributed Systems &nbsp;•&nbsp; Event-Driven Architecture &nbs
 
 ## 🚀 Open Source Contributions
 
-| Project | What & Why it was hard |
+| Project | Contribution |
 |---|---|
 | [Prometheus TSDB](https://github.com/prometheus/prometheus/pull/19120) | Fixed silent resource leak in querier cleanup where failing `Close()` calls were swallowed; used `errors.Join()` to surface all concurrent failures across multi-block queries |
 | [OTel C++: EnvironmentCarrier](https://github.com/open-telemetry/opentelemetry-cpp/pull/4190) | Spec-compliance fix: empty keys silently mapped to the wrong slot in `NormalizeKey()`; documented `string_view` lifetime and thread-safety guarantees for the caching layer |
