@@ -16,7 +16,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 |  |  |
 |---|---|
-| **Merged upstream** | 4 contributions across Prometheus, OpenTelemetry C++ SDK, and GoFr |
+| **Merged upstream** | Contributions across Prometheus, OpenTelemetry C++ SDK, and GoFr |
 | **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
 | **Focus** | TSDB internals · specification compliance · declarative configuration · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
