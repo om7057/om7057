@@ -14,22 +14,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ---
 
-## Contribution graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/om7057/om7057/output/snake.svg" alt="snake contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=om7057&theme=react-dark&hide_border=true&area=true" alt="commit activity graph" />
-</p>
-
----
-
 |  |  |
 |---|---|
 | **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · GoFr |
@@ -105,4 +89,20 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kubernetes,docker,kafka,grafana,prometheus,aws,linux,githubactions&perline=8" height="55" />
+</p>
+
+---
+
+## Contribution graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om7057/om7057/output/snake.svg" alt="snake contribution graph" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=om7057&theme=react-dark&hide_border=true&area=true" alt="commit activity graph" />
 </p>
