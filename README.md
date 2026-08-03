@@ -93,6 +93,14 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 
 ---
 
+## Languages
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile/top-langs.svg" alt="most used languages" />
+</p>
+
+---
+
 ## Contribution graph
 
 <p align="center">
@@ -100,10 +108,7 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/om7057/github-readme/main/output/contribs-dark.svg" />
-    <img alt="isometric contribution graph" src="https://raw.githubusercontent.com/om7057/github-readme/main/output/contribs-light.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
 </p>
 
 <p align="center">
