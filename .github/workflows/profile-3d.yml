@@ -18,6 +18,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Strip language pie chart from generated SVGs
+        run: python3 .github/scripts/strip-pie.py profile-3d-contrib/*.svg
       - name: Commit & Push
         run: |
           git config user.name github-actions

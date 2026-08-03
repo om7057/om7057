@@ -93,14 +93,6 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 
 ---
 
-## Languages
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile/top-langs.svg" alt="most used languages" />
-</p>
-
----
-
 ## Contribution graph
 
 <p align="center">
