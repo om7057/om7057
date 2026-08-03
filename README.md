@@ -92,5 +92,5 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
 </p>
