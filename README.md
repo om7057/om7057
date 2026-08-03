@@ -16,9 +16,9 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 |  |  |
 |---|---|
-| **Merged upstream** | OpenTelemetry · Prometheus · GoFr |
+| **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · GoFr |
 | **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
-| **Focus** | TSDB internals · specification compliance · declarative configuration · migration tooling |
+| **Focus** | Metrics cardinality · specification compliance · declarative configuration · TSDB internals · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
 | **Experience** | Software Engineer working on backend and distributed systems. Previously SDE Intern at CoinSwitch (Go, gRPC, NATS JetStream) and Engineering Intern at ConnectWise (Go, Kafka, Aurora) |
 
@@ -64,6 +64,46 @@ severity filtering. Added both fields to the parser with spec-aligned defaults, 
 integration tests covering default, explicit-severity, and trace-based filtering.
 [Issue #4130](https://github.com/open-telemetry/opentelemetry-cpp/issues/4130) ·
 [PR #4131](https://github.com/open-telemetry/opentelemetry-cpp/pull/4131)
+
+The cardinality-limits work had a follow-up gap: a histogram view that set only a cardinality
+limit, with no explicit aggregation block, was silently rejected, since the code always built
+a plain `AggregationConfig` instead of the `HistogramAggregationConfig` the view registry
+requires. Fixing it surfaced a second, subtler bug: a freshly-built config has empty
+boundaries, which the aggregation constructors read as "use zero buckets" rather than "use
+SDK defaults." Fixed both, and deduplicated the boundary list that three call sites had each
+been carrying their own copy of.
+[Issue #3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292) ·
+[PR #4314](https://github.com/open-telemetry/opentelemetry-cpp/pull/4314)
+
+The same class of bug showed up across `opentelemetry-go-contrib`. In `otelmongo`, pooled
+connection IDs from the v2 Mongo driver carry a `[-<n>]` suffix that broke host/port parsing,
+so the fallback path used the whole per-connection string as the hostname, unbounding
+`network.peer.address` cardinality on every long-running process.
+[Issue #9275](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9275) ·
+[PR #9352](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9352)
+
+In `propagators/aws/xray`, a discarded error from the `crypto/rand` seed read meant every
+`IDGenerator` fell back to seed `0` whenever entropy wasn't available, so restricted or
+sandboxed environments could emit identical trace and span IDs across instances. Replaced the
+manually-seeded generator with `math/rand/v2`'s runtime-seeded globals, while keeping the
+now-unused `sync.Mutex` in place to preserve the stable v1 module's public API.
+[Issue #9048](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9048) ·
+[PR #9359](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9359)
+
+And in `otelhttp`, `network.protocol.version` was read off the outgoing request, which the
+standard library always stamps `HTTP/1.1`, so client spans and metrics misreported HTTP/2
+connections negotiated over ALPN. Re-sourced it from the response instead, once the true
+wire protocol is known, and regenerated all six consumer packages from the shared template.
+[Issue #9007](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9007) ·
+[PR #9371](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9371)
+
+Outside of contrib, `opentelemetry-go-compile-instrumentation`'s gin package never checked the
+runtime enable/disable gate every other instrumentation package used, so
+`OTEL_GO_DISABLED_INSTRUMENTATIONS=gin` silently had no effect. Gave gin its own
+instrumentation key, since it only enriches an existing HTTP span rather than creating one,
+and hardened the before/after hook pair against the env var changing mid-request.
+[Issue #839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839) ·
+[PR #840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)
 
 In GoFr I added ScyllaDB migration support, extending the framework's schema-migration path
 beyond relational backends, with a `gomock`-based harness (`MockScyllaDB`) so migration logic
