@@ -100,7 +100,10 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/om7057/github-readme/main/output/contribs-dark.svg" />
+    <img alt="isometric contribution graph" src="https://raw.githubusercontent.com/om7057/github-readme/main/output/contribs-light.svg" />
+  </picture>
 </p>
 
 <p align="center">
