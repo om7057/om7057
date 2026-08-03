@@ -36,12 +36,12 @@ preserve concurrent cleanup failures alongside the primary error ([#19114](https
 [#19120](https://github.com/prometheus/prometheus/pull/19120)).
 
 Most of my recent work has been in the **OpenTelemetry C++ SDK**. `EnvironmentCarrier` didn't
-normalize empty keys, so `Get("")`/`Set("")` silently touched the wrong slot instead of erroring —
+normalize empty keys, so `Get("")`/`Set("")` silently touched the wrong slot instead of erroring :
 a spec violation I fixed alongside the caching contract's documentation
 ([#4190](https://github.com/open-telemetry/opentelemetry-cpp/issues/4190), [#4264](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264)).
 I also implemented configurable, per-instrument-type cardinality limits for the Metrics SDK,
 which previously hardcoded a limit of 2000 and silently discarded any user-supplied override
-([#3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292), [#4188](https://github.com/open-telemetry/opentelemetry-cpp/pull/4188)) —
+([#3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292), [#4188](https://github.com/open-telemetry/opentelemetry-cpp/pull/4188)) :
 along with a follow-up fix for histogram views that set only a cardinality limit, which were
 being silently rejected ([#4314](https://github.com/open-telemetry/opentelemetry-cpp/pull/4314)).
 Separately, I closed a declarative-configuration gap where `minimum_severity` and `trace_based`
