@@ -16,7 +16,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 |  |  |
 |---|---|
-| **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · GoFr |
+| **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · Liquibase · GoFr |
 | **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
 | **Focus** | Metrics cardinality · specification compliance · declarative configuration · TSDB internals · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
@@ -62,6 +62,14 @@ I fixed the gin package silently ignoring `OTEL_GO_DISABLED_INSTRUMENTATIONS=gin
 checked the runtime enable/disable gate every other instrumentation package relied on
 ([#839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839),
 [#840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)).
+
+In **Liquibase**, a child thread that inherited its parent's `Scope` (via `InheritableThreadLocal`)
+could have its MDC log entries wiped out by the parent's `exit()`, since entries were tracked in a
+single static map keyed only by scope ID with no notion of which thread owned them. I re-scoped
+ownership to a `ThreadLocal<Map<...>>` so each thread only ever cleans up entries it registered
+itself, and rewrote my first regression test after review pointed out it never actually exercised
+the shared-scope-ID collision the bug depended on
+([#7823](https://github.com/liquibase/liquibase/issues/7823), [#7825](https://github.com/liquibase/liquibase/pull/7825)).
 
 In **GoFr**, I added ScyllaDB migration support with a `gomock`-based test harness, extending the
 framework's schema-migration path beyond relational backends ([#2085](https://github.com/gofr-dev/gofr/pull/2085)).
