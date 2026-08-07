@@ -30,49 +30,33 @@ A pattern runs through most of what I contribute upstream: software that fails s
 than loudly, and my fixes tend to replace a swallowed error or a discarded configuration value
 with a deliberate one.
 
-In the **Prometheus TSDB**, querier cleanup was discarding errors returned by `Close()`, so a
-failing block surfaced as a successful query with missing data. I introduced `errors.Join()` to
-preserve concurrent cleanup failures alongside the primary error ([#19114](https://github.com/prometheus/prometheus/issues/19114),
-[#19120](https://github.com/prometheus/prometheus/pull/19120)).
+**Prometheus TSDB** — querier cleanup swallowed `Close()` errors, masking failed blocks as
+successful queries; fixed with `errors.Join()`
+([#19114](https://github.com/prometheus/prometheus/issues/19114), [#19120](https://github.com/prometheus/prometheus/pull/19120)).
 
-Most of my recent work has been in the **OpenTelemetry C++ SDK**. `EnvironmentCarrier` didn't
-normalize empty keys, so `Get("")`/`Set("")` silently touched the wrong slot instead of erroring :
-a spec violation I fixed alongside the caching contract's documentation
-([#4190](https://github.com/open-telemetry/opentelemetry-cpp/issues/4190), [#4264](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264)).
-I also implemented configurable, per-instrument-type cardinality limits for the Metrics SDK,
-which previously hardcoded a limit of 2000 and silently discarded any user-supplied override
-([#3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292), [#4188](https://github.com/open-telemetry/opentelemetry-cpp/pull/4188)) :
-along with a follow-up fix for histogram views that set only a cardinality limit, which were
-being silently rejected ([#4314](https://github.com/open-telemetry/opentelemetry-cpp/pull/4314)).
-Separately, I closed a declarative-configuration gap where `minimum_severity` and `trace_based`
-were missing from `LoggerConfig`, causing file-configured loggers to silently ignore severity
-filtering ([#4130](https://github.com/open-telemetry/opentelemetry-cpp/issues/4130), [#4131](https://github.com/open-telemetry/opentelemetry-cpp/pull/4131)).
+**OpenTelemetry C++ SDK** — normalized `EnvironmentCarrier`'s empty-key handling, a spec violation
+([#4190](https://github.com/open-telemetry/opentelemetry-cpp/issues/4190), [#4264](https://github.com/open-telemetry/opentelemetry-cpp/pull/4264));
+added configurable per-instrument-type cardinality limits to the Metrics SDK, plus a follow-up fix
+for histogram views that silently rejected cardinality-only configs
+([#3292](https://github.com/open-telemetry/opentelemetry-cpp/issues/3292), [#4188](https://github.com/open-telemetry/opentelemetry-cpp/pull/4188), [#4314](https://github.com/open-telemetry/opentelemetry-cpp/pull/4314));
+closed a config gap where `LoggerConfig` silently ignored severity filtering
+([#4130](https://github.com/open-telemetry/opentelemetry-cpp/issues/4130), [#4131](https://github.com/open-telemetry/opentelemetry-cpp/pull/4131)).
 
-I've since extended the same pattern to the **Go side of OpenTelemetry**. In `opentelemetry-go-contrib`,
-I fixed unbounded `network.peer.address` cardinality in `otelmongo` caused by unparsed pooled
-connection ID suffixes ([#9275](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9275),
-[#9352](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9352)); a determinism bug in the
-AWS X-Ray `IDGenerator` where a silently-discarded seed-read error could produce identical trace and
-span IDs across instances ([#9048](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9048),
-[#9359](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9359)); and a case in `otelhttp`
-where `network.protocol.version` was read from the outgoing request rather than the negotiated
-response, misreporting HTTP/2 connections as HTTP/1.1 ([#9007](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9007),
-[#9371](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9371)). In `opentelemetry-go-compile-instrumentation`,
-I fixed the gin package silently ignoring `OTEL_GO_DISABLED_INSTRUMENTATIONS=gin`, since it never
-checked the runtime enable/disable gate every other instrumentation package relied on
-([#839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839),
-[#840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)).
+**OpenTelemetry Go** — fixed unbounded `network.peer.address` cardinality in `otelmongo`
+([#9275](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9275), [#9352](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9352)),
+a determinism bug in the X-Ray `IDGenerator`
+([#9048](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9048), [#9359](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9359)),
+and `otelhttp` misreporting HTTP/2 as HTTP/1.1
+([#9007](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9007), [#9371](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9371)) —
+plus a runtime enable/disable gate missing from gin's compile-time instrumentation
+([#839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839), [#840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)).
 
-In **Liquibase**, a child thread that inherited its parent's `Scope` (via `InheritableThreadLocal`)
-could have its MDC log entries wiped out by the parent's `exit()`, since entries were tracked in a
-single static map keyed only by scope ID with no notion of which thread owned them. I re-scoped
-ownership to a `ThreadLocal<Map<...>>` so each thread only ever cleans up entries it registered
-itself, and rewrote my first regression test after review pointed out it never actually exercised
-the shared-scope-ID collision the bug depended on
+**Liquibase** — fixed a race where a child thread's MDC log entries could be wiped out by a
+parent thread's scope `exit()`, by re-scoping ownership to a per-thread map
 ([#7823](https://github.com/liquibase/liquibase/issues/7823), [#7825](https://github.com/liquibase/liquibase/pull/7825)).
 
-In **GoFr**, I added ScyllaDB migration support with a `gomock`-based test harness, extending the
-framework's schema-migration path beyond relational backends ([#2085](https://github.com/gofr-dev/gofr/pull/2085)).
+**GoFr** — added ScyllaDB migration support with a `gomock`-based test harness
+([#2085](https://github.com/gofr-dev/gofr/pull/2085)).
 
 ---
 
