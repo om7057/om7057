@@ -16,7 +16,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 |  |  |
 |---|---|
-| **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · Liquibase · GoFr |
+| **Merged upstream** | OpenTelemetry (C++ SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · Liquibase · Apicurio Registry · GoFr |
 | **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
 | **Focus** | Metrics cardinality · specification compliance · declarative configuration · TSDB internals · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
@@ -48,12 +48,19 @@ a determinism bug in the X-Ray `IDGenerator`
 ([#9048](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9048), [#9359](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9359)),
 and `otelhttp` misreporting HTTP/2 as HTTP/1.1
 ([#9007](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/9007), [#9371](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9371)),
-plus a runtime enable/disable gate missing from gin's compile-time instrumentation
-([#839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839), [#840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)).
+a runtime enable/disable gate missing from gin's compile-time instrumentation
+([#839](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/839), [#840](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/840)),
+a dropped final SSE chunk in the OpenAI streaming reader
+([#827](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/827), [#828](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/828)),
+and a mis-scoped Codecov flag that was blocking unrelated PRs
+([#857](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/857)).
 
 **Liquibase** : fixed a race where a child thread's MDC log entries could be wiped out by a
 parent thread's scope `exit()`, by re-scoping ownership to a per-thread map
 ([#7823](https://github.com/liquibase/liquibase/issues/7823), [#7825](https://github.com/liquibase/liquibase/pull/7825)).
+
+**Apicurio Registry** : added integration test coverage for contract events that had none
+([#8858](https://github.com/Apicurio/apicurio-registry/issues/8858), [#8860](https://github.com/Apicurio/apicurio-registry/pull/8860)).
 
 **GoFr** : added ScyllaDB migration support with a `gomock`-based test harness
 ([#2085](https://github.com/gofr-dev/gofr/pull/2085)).
