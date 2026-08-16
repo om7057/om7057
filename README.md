@@ -17,7 +17,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 |  |  |
 |---|---|
 | **Merged upstream** | OpenTelemetry (C++ SDK, Go SDK, Go Contrib, Go Compile Instrumentation) · Prometheus · Liquibase · Apicurio Registry · GoFr |
-| **CNCF ecosystem** | Prometheus and OpenTelemetry are both CNCF **graduated** projects |
 | **Focus** | Metrics cardinality · specification compliance · declarative configuration · TSDB internals · migration tooling |
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
 | **Experience** | Software Engineer working on backend and distributed systems. Previously SDE Intern at CoinSwitch (Go, gRPC, NATS JetStream) and Engineering Intern at ConnectWise (Go, Kafka, Aurora) |
