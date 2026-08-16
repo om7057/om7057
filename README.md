@@ -24,7 +24,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 |  |  |
 |---|---|
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
-| **Experience** | Software Engineer working on backend and distributed systems. Previously SDE Intern at CoinSwitch (Go, gRPC, NATS JetStream) and Engineering Intern at ConnectWise (Go, Kafka, Aurora) |
+| **Experience** | Software Engineer working on backend and distributed systems. Previously SDE Intern (Go, gRPC, NATS JetStream) and Engineering Intern (Go, Kafka, Aurora) |
 
 ---
 
