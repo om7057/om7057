@@ -28,7 +28,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ---
 
-## Recent work
+## Open Source Work
 
 <table align="center">
   <tr>
@@ -47,25 +47,13 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td><a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Compile%20Instrumentation-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
     <td>Runtime gates, codegen fixes, CI, streaming-reader dedup</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
-    <td>TSDB &amp; service-discovery reliability fixes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
-    <td>Thread-safety &amp; lock-ownership fixes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Apicurio/apicurio-registry/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Apicurio%20Registry-6E56CF?style=for-the-badge" /></a></td>
-    <td>Integration test coverage</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADD8?style=for-the-badge&logo=go&logoColor=white" /></a></td>
-    <td>ScyllaDB migration support</td>
-  </tr>
 </table>
 
 ---
+## Article
+
+**Every Developer has a DROP SCHEMA moment**
+: [Article](https://medium.com/@om7057/every-developer-has-their-drop-schema-moment-3e7f7da9875d)
 
 ## Research
 
