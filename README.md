@@ -49,6 +49,14 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td><a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Compile%20Instrumentation-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
     <td>Runtime gates, codegen fixes, CI, streaming-reader dedup</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/jenkinsci/remoting/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20Remoting-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
+    <td>Channel deadlock &amp; thread-safety fixes</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jenkinsci/opentelemetry-plugin/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20OTel%20Plugin-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
+    <td>Resource leak, validation, and circuit-breaker fixes</td>
+  </tr>
 </table>
 
 ---
