@@ -50,6 +50,19 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 </table>
 
 ---
+
+## Top repositories by contribution
+
+| Repository | PRs | Reviews | Issues |
+|---|---:|---:|---:|
+| [OTel C++ SDK](https://github.com/open-telemetry/opentelemetry-cpp) | 13 | 7 | 3 |
+| [OTel Compile Instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation) | 9 | 7 | 6 |
+| [OTel Go Contrib](https://github.com/open-telemetry/opentelemetry-go-contrib) | 7 | 5 | 0 |
+| [Liquibase](https://github.com/liquibase/liquibase) | 5 | 3 | 0 |
+| [Prometheus](https://github.com/prometheus/prometheus) | 4 | 1 | 4 |
+
+---
+
 ## Article
 
 **Every Developer has a DROP SCHEMA moment**
