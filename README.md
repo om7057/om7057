@@ -51,18 +51,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ---
 
-## Top repositories by contribution
-
-| Repository | PRs | Reviews | Issues |
-|---|---:|---:|---:|
-| [OTel C++ SDK](https://github.com/open-telemetry/opentelemetry-cpp) | 13 | 7 | 3 |
-| [OTel Compile Instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation) | 9 | 7 | 6 |
-| [OTel Go Contrib](https://github.com/open-telemetry/opentelemetry-go-contrib) | 7 | 5 | 0 |
-| [Liquibase](https://github.com/liquibase/liquibase) | 5 | 3 | 0 |
-| [Prometheus](https://github.com/prometheus/prometheus) | 4 | 1 | 4 |
-
----
-
 ## Article
 
 **Every Developer has a DROP SCHEMA moment**
@@ -101,5 +89,9 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=om7057&theme=github_dark" alt="GitHub stats radar" />
 </p>
 
