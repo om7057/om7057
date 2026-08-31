@@ -1,7 +1,7 @@
 <h1 align="center">Om Kulkarni</h1>
 
 <p align="center">
-Backend and distributed systems &nbsp;·&nbsp; Go, gRPC, event-driven architecture<br/>
+Backend and distributed systems &nbsp;·&nbsp; Go &amp; C++, gRPC, event-driven architecture<br/>
 Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 </p>
 
@@ -13,6 +13,8 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/-Distributed%20Systems-1d4ed8?style=flat-square" alt="Distributed Systems" />
   <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
   <img src="https://img.shields.io/badge/-Tracing-0891b2?style=flat-square" alt="Tracing" />
@@ -24,7 +26,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 |  |  |
 |---|---|
 | **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
-| **Experience** | Software Engineer working on backend and distributed systems. Previously SDE Intern (Go, gRPC, NATS JetStream) and Engineering Intern (Go, Kafka, Aurora) |
+| **Experience** | Software Engineer working on backend and distributed systems in Go and C++. Previously SDE Intern (Go, gRPC, NATS JetStream) and Engineering Intern (Go, Kafka, Aurora) |
 
 ---
 
@@ -89,9 +91,5 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=om7057&theme=github_dark" alt="GitHub stats radar" />
 </p>
 
