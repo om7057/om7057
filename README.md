@@ -53,6 +53,22 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ---
 
+## Repo activity
+
+**OTel C++ SDK**
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/7b7e6139e8a57545de056e642b58454d3c40da2b.svg "Repobeats analytics image")
+
+**OTel Go Contrib**
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/7ae30059b190d201449db0f1c1e539a48ce11913.svg "Repobeats analytics image")
+
+**OTel Go SDK**
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/375c6be0dad68f7f24aebd793aef0c410726ad61.svg "Repobeats analytics image")
+
+**OTel Compile Instrumentation**
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/c08bea1a16802fd3fb33cc5901b2265064c6ab0e.svg "Repobeats analytics image")
+
+---
+
 ## Article
 
 **Every Developer has a DROP SCHEMA moment**
