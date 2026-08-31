@@ -101,3 +101,9 @@ across Iceberg, Hudi, Delta, and Parquet into a single view.
   <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
 </p>
 
+**Top contributed repos, by PR count** (auto-updated daily)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/top-prs.svg" alt="top contributed repos by PR count" />
+</p>
+
