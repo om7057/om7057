@@ -6,7 +6,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 </p>
 
 <p align="center">
-<a href="https://om-kulk.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://omkulkarni.me/">Portfolio</a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/om7057/">LinkedIn</a> &nbsp;·&nbsp;
 <a href="https://medium.com/@om7057">Medium</a> &nbsp;·&nbsp;
 <a href="https://x.com/kulkarniom7057">X</a>
@@ -38,16 +38,28 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>Cardinality limits, spec compliance, code health</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-go-contrib/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20Contrib-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Cardinality &amp; determinism fixes across instrumentation</td>
+    <td><a href="https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20SDK-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td>Exported-symbol doc comments, lint cleanup</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20SDK-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Core SDK lint cleanup</td>
+    <td><a href="https://github.com/open-telemetry/opentelemetry-go-contrib/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20Contrib-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td>Cardinality, determinism &amp; deprecated-API fixes across instrumentation</td>
   </tr>
   <tr>
     <td><a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Compile%20Instrumentation-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
     <td>Runtime gates, codegen fixes, CI, streaming-reader dedup</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Collector%20Contrib-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td>Receiver nil-guard fix (vCenter/vSAN)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/open-telemetry/semantic-conventions/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Semantic%20Conventions-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td>Codegen/markdown tooling fix</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
+    <td>TSDB error handling, service-discovery nil-guards, docs</td>
   </tr>
   <tr>
     <td><a href="https://github.com/jenkinsci/remoting/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20Remoting-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
@@ -56,6 +68,30 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   <tr>
     <td><a href="https://github.com/jenkinsci/opentelemetry-plugin/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20OTel%20Plugin-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
     <td>Resource leak, validation, and circuit-breaker fixes</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
+    <td>Thread-scoped MDC entries, changelog-lock ownership fix</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Project-HAMi/HAMi/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/HAMi-4ADE80?style=for-the-badge&logoColor=white" /></a></td>
+    <td>Atomic shared-memory accessors for GPU device limits</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Apicurio/apicurio-registry/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Apicurio%20Registry-6E56CF?style=for-the-badge&logoColor=white" /></a></td>
+    <td>Integration test coverage for contract events</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADB5?style=for-the-badge&logoColor=white" /></a></td>
+    <td>ScyllaDB migrations, circuit-breaker metrics, websocket fix</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/argoproj/argo-cd/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" /></a></td>
+    <td>ApplicationSet controller workqueue tuning</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger%20IDL-60D0E4?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
+    <td>Search-result pagination proto foundation</td>
   </tr>
 </table>
 
