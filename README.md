@@ -97,7 +97,10 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ---
 
-## Article
+## Articles
+
+**The Foundations That Nobody Talks About**
+: [Article](https://medium.com/@om7057/the-foundations-that-nobody-talks-about-d78209ef7f4e) &nbsp;·&nbsp; The boring stuff every codebase quietly depends on.
 
 **Every Developer has a DROP SCHEMA moment**
 : [Article](https://medium.com/@om7057/every-developer-has-their-drop-schema-moment-3e7f7da9875d)
