@@ -38,10 +38,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>Cardinality limits, spec compliance, doc-comment &amp; lint cleanup, and codegen fixes across the C++/Go SDKs, Go Contrib, Compile Instrumentation, Collector Contrib, and Semantic Conventions</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
-    <td>TSDB error handling, service-discovery nil-guards, docs</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
     <td>Channel deadlock &amp; thread-safety fixes (Remoting), resource-leak, validation, and circuit-breaker fixes (OTel Plugin)</td>
   </tr>
@@ -54,16 +50,8 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>Atomic shared-memory accessors for GPU device limits</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Apicurio/apicurio-registry/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Apicurio%20Registry-6E56CF?style=for-the-badge&logoColor=white" /></a></td>
-    <td>Integration test coverage for contract events</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADB5?style=for-the-badge&logoColor=white" /></a></td>
     <td>ScyllaDB migrations, circuit-breaker metrics, websocket fix</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/argoproj/argo-cd/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" /></a></td>
-    <td>ApplicationSet controller workqueue tuning</td>
   </tr>
   <tr>
     <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-60D0E4?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
