@@ -23,11 +23,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   <img src="https://img.shields.io/badge/-Spec%20Compliance-475569?style=flat-square" alt="Spec Compliance" />
 </p>
 
-|  |  |
-|---|---|
-| **Research** | IEEE ICFT 2025, co-author and presenter on metadata exploration across lakehouse table formats |
-| **Experience** | Software Engineer working on backend and distributed systems in Go and C++. Previously SDE Intern (Go, gRPC, NATS JetStream) and Engineering Intern (Go, Kafka, Aurora) |
-
 ---
 
 ## Open Source Work
