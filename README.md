@@ -41,7 +41,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>Thread-scoped MDC entries, changelog-lock ownership fix</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Project-HAMi/HAMi/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/HAMi-4ADE80?style=for-the-badge&logoColor=white" /></a></td>
+    <td><a href="https://github.com/Project-HAMi/HAMi/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/HAMi-16A34A?style=for-the-badge&logoColor=white" /></a></td>
     <td>Atomic shared-memory accessors for GPU device limits</td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>ScyllaDB migrations, circuit-breaker metrics, websocket fix</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-60D0E4?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
+    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
     <td>Search-result pagination proto foundation</td>
   </tr>
 </table>
