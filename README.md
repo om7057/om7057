@@ -34,40 +34,16 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-cpp/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20C%2B%2B%20SDK-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Cardinality limits, spec compliance, code health</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20SDK-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Exported-symbol doc comments, lint cleanup</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-go-contrib/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Go%20Contrib-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Cardinality, determinism &amp; deprecated-API fixes across instrumentation</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Compile%20Instrumentation-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Runtime gates, codegen fixes, CI, streaming-reader dedup</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Collector%20Contrib-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Receiver nil-guard fix (vCenter/vSAN)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/open-telemetry/semantic-conventions/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/OTel%20Semantic%20Conventions-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Codegen/markdown tooling fix</td>
+    <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Aopen-telemetry"><img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td>Cardinality limits, spec compliance, doc-comment &amp; lint cleanup, and codegen fixes across the C++/Go SDKs, Go Contrib, Compile Instrumentation, Collector Contrib, and Semantic Conventions</td>
   </tr>
   <tr>
     <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
     <td>TSDB error handling, service-discovery nil-guards, docs</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/jenkinsci/remoting/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20Remoting-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
-    <td>Channel deadlock &amp; thread-safety fixes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/jenkinsci/opentelemetry-plugin/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jenkins%20OTel%20Plugin-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
-    <td>Resource leak, validation, and circuit-breaker fixes</td>
+    <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
+    <td>Channel deadlock &amp; thread-safety fixes (Remoting), resource-leak, validation, and circuit-breaker fixes (OTel Plugin)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
@@ -90,7 +66,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>ApplicationSet controller workqueue tuning</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger%20IDL-60D0E4?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
+    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-60D0E4?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
     <td>Search-result pagination proto foundation</td>
   </tr>
 </table>
