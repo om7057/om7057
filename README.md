@@ -58,6 +58,9 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ## Articles
 
+**My New .me Domain Broke, But Only on My Wi-Fi**
+: [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
+
 **The Foundations That Nobody Talks About**
 : [Article](https://medium.com/@om7057/the-foundations-that-nobody-talks-about-d78209ef7f4e) &nbsp;·&nbsp; The boring stuff every codebase quietly depends on.
 
