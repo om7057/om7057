@@ -29,7 +29,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Aopen-telemetry"><img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
+    <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Aopen-telemetry"><img src="https://img.shields.io/badge/OTel-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
     <td>Cardinality limits, spec compliance, doc-comment &amp; lint cleanup, and codegen fixes across the C++/Go SDKs, Go Contrib, Compile Instrumentation, Collector Contrib, and Semantic Conventions</td>
   </tr>
   <tr>
