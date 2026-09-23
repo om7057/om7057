@@ -33,6 +33,10 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td>Cardinality limits, spec compliance, doc-comment &amp; lint cleanup, and codegen fixes across the C++/Go SDKs, Go Contrib, Compile Instrumentation, Collector Contrib, and Semantic Conventions</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
+    <td>Search-result pagination proto foundation</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
     <td>Channel deadlock &amp; thread-safety fixes (Remoting), resource-leak, validation, and circuit-breaker fixes (OTel Plugin)</td>
   </tr>
@@ -47,10 +51,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   <tr>
     <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADB5?style=for-the-badge&logoColor=white" /></a></td>
     <td>ScyllaDB migrations, circuit-breaker metrics, websocket fix</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
-    <td>Search-result pagination proto foundation</td>
   </tr>
 </table>
 
