@@ -34,7 +34,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   </tr>
   <tr>
     <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
-    <td>Search-result pagination proto foundation</td>
+    <td>RFC 0014 pagination and RFC 0016 span search across the query path and memory backend, plus marshaling and UTF-8 truncation fixes</td>
   </tr>
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
@@ -50,7 +50,19 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   </tr>
   <tr>
     <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADB5?style=for-the-badge&logoColor=white" /></a></td>
-    <td>ScyllaDB migrations, circuit-breaker metrics, websocket fix</td>
+    <td>ScyllaDB migrations, circuit-breaker metrics, WebSocket context race and stack-overflow fixes</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
+    <td>TSDB querier error handling, IONOS service discovery nil-safety, clamp NaN behavior docs and tests</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/argoproj/argo-cd/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" /></a></td>
+    <td>ApplicationSet controller retry backoff tuning</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Apicurio/apicurio-registry/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Apicurio-6E56CF?style=for-the-badge&logoColor=white" /></a></td>
+    <td>Contract event integration test coverage</td>
   </tr>
 </table>
 
