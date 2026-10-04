@@ -73,8 +73,8 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 **My New .me Domain Broke, But Only on My Wi-Fi**
 : [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
 
-**The Foundations That Nobody Talks About**
-: [Article](https://medium.com/@om7057/the-foundations-that-nobody-talks-about-d78209ef7f4e) &nbsp;·&nbsp; The boring stuff every codebase quietly depends on.
+**Liquibase's Shared State Problem**
+: [Article](https://omkulkarni.me/blog/liquibase-shared-state-problem) &nbsp;·&nbsp; How a changelog-lock table and a logging context turned into two concurrency bugs, and why both fixes were the same move.
 
 **Every Developer has a DROP SCHEMA moment**
 : [Article](https://medium.com/@om7057/every-developer-has-their-drop-schema-moment-3e7f7da9875d)
