@@ -79,6 +79,9 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 **Every Developer has a DROP SCHEMA moment**
 : [Article](https://medium.com/@om7057/every-developer-has-their-drop-schema-moment-3e7f7da9875d)
 
+**The Design Decisions That Separate Good Code From Great Code**
+: [Article](https://medium.com/@om7057/the-design-decisions-that-separate-good-code-from-great-code-ad8be3145108)
+
 ## Research
 
 **MetaLens: A Web-Based Tool for Multi-Format Metadata Exploration**
