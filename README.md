@@ -1,7 +1,8 @@
 <h1 align="center">Om Kulkarni</h1>
 
 <p align="center">
-Backend and distributed systems &nbsp;·&nbsp; Go &amp; C++, gRPC, event-driven architecture<br/>
+Distributed Systems &nbsp;·&nbsp; Backend &nbsp;·&nbsp; Golang Microservices &nbsp;·&nbsp; Cloud &amp; DevOps<br/>
+Go &amp; C++, gRPC, event-driven architecture<br/>
 Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 </p>
 
@@ -30,39 +31,19 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 <table align="center">
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Aopen-telemetry"><img src="https://img.shields.io/badge/OTel-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Cardinality limits, spec compliance, doc-comment &amp; lint cleanup, and codegen fixes across the C++/Go SDKs, Go Contrib, Compile Instrumentation, Collector Contrib, and Semantic Conventions</td>
+    <td>Cardinality limits, spec compliance, codegen fixes</td>
   </tr>
   <tr>
     <td><a href="https://github.com/jaegertracing/jaeger-idl/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
-    <td>RFC 0014 pagination and RFC 0016 span search across the query path and memory backend, plus marshaling and UTF-8 truncation fixes</td>
+    <td>Pagination, span search, marshaling fixes</td>
   </tr>
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
-    <td>Channel deadlock &amp; thread-safety fixes (Remoting), resource-leak, validation, and circuit-breaker fixes (OTel Plugin)</td>
+    <td>Thread-safety, deadlock fixes, circuit-breaker</td>
   </tr>
   <tr>
     <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
-    <td>Thread-scoped MDC entries, changelog-lock ownership fix</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Project-HAMi/HAMi/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/HAMi-16A34A?style=for-the-badge&logoColor=white" /></a></td>
-    <td>Atomic shared-memory accessors for GPU device limits</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gofr-dev/gofr/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/GoFr-00ADB5?style=for-the-badge&logoColor=white" /></a></td>
-    <td>ScyllaDB migrations, circuit-breaker metrics, WebSocket context race and stack-overflow fixes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a></td>
-    <td>TSDB querier error handling, IONOS service discovery nil-safety, clamp NaN behavior docs and tests</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/argoproj/argo-cd/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" /></a></td>
-    <td>ApplicationSet controller retry backoff tuning</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Apicurio/apicurio-registry/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Apicurio-6E56CF?style=for-the-badge&logoColor=white" /></a></td>
-    <td>Contract event integration test coverage</td>
+    <td>Concurrency, shared-state fixes</td>
   </tr>
 </table>
 
@@ -70,14 +51,11 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 ## Articles
 
-**My New .me Domain Broke, But Only on My Wi-Fi**
-: [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
-
 **Liquibase's Shared State Problem**
 : [Article](https://omkulkarni.me/blog/liquibase-shared-state-problem) &nbsp;·&nbsp; How a changelog-lock table and a logging context turned into two concurrency bugs, and why both fixes were the same move.
 
-**Every Developer has a DROP SCHEMA moment**
-: [Article](https://medium.com/@om7057/every-developer-has-their-drop-schema-moment-3e7f7da9875d)
+**My New .me Domain Broke, But Only on My Wi-Fi**
+: [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
 
 **The Design Decisions That Separate Good Code From Great Code**
 : [Article](https://medium.com/@om7057/the-design-decisions-that-separate-good-code-from-great-code-ad8be3145108)
