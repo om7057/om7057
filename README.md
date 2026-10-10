@@ -64,14 +64,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 ## Research
 
 **MetaLens: A Web-Based Tool for Multi-Format Metadata Exploration**
-<br/>
-IEEE ICFT 2025, Smart Computing track. Co-author and presenter.
-
-A format-agnostic metadata layer for lakehouse systems, unifying schema and snapshot state
-across Iceberg, Hudi, Delta, and Parquet into a single view.
-
-[IEEE Xplore](https://ieeexplore.ieee.org/document/11336690) &nbsp;·&nbsp;
-[DOI: 10.1109/ICFT66708.2025.11336690](https://doi.org/10.1109/ICFT66708.2025.11336690)
+: [IEEE Xplore](https://ieeexplore.ieee.org/document/11336690) &nbsp;·&nbsp; A format-agnostic metadata layer unifying schema and snapshot state across Iceberg, Hudi, Delta, and Parquet.
 
 ---
 
