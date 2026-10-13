@@ -36,7 +36,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   </tr>
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajaegertracing"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
-    <td>Pagination, span search, marshaling fixes, UI component refactors</td>
+    <td>Pagination, span search, ClickHouse query routing, marshaling fixes, UI component refactors</td>
   </tr>
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
@@ -44,7 +44,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
   </tr>
   <tr>
     <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
-    <td>Concurrency, shared-state fixes</td>
+    <td>Concurrency, shared-state, CSV parsing fixes</td>
   </tr>
 </table>
 
