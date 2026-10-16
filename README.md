@@ -15,6 +15,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/-Distributed%20Systems-1d4ed8?style=flat-square" alt="Distributed Systems" />
   <img src="https://img.shields.io/badge/-Microservices-0f766e?style=flat-square" alt="Microservice Architectures" />
   <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
@@ -25,7 +26,7 @@ Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
 
 ## Open Source Work
 
-Focused on **OpenTelemetry** and **Jaeger**, the observability and distributed-tracing side of the CNCF landscape.
+**OpenTelemetry** and **Jaeger**, the observability and distributed-tracing side of the CNCF landscape.
 
 <table align="center">
   <tr>
