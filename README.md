@@ -64,10 +64,21 @@ Software Engineer &nbsp;|&nbsp; Open Source Contributor
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,cpp,java,py,postgres,redis,cassandra,mongodb&perline=8" height="55" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,kafka,grafana,prometheus,aws,linux,githubactions&perline=8" height="55" />
+  <kbd><b>Languages</b></kbd>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=go,java,cpp,py&perline=4" height="48" />
+  <br/><br/>
+  <kbd><b>Databases</b></kbd>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,cassandra,mongodb&perline=4" height="48" />
+  <br/><br/>
+  <kbd><b>Messaging &amp; Observability</b></kbd>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=3" height="48" />
+  <br/><br/>
+  <kbd><b>Infra &amp; Tooling</b></kbd>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,githubactions&perline=5" height="48" />
 </p>
 
 ---
