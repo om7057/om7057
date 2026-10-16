@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/-Distributed%20Systems-1d4ed8?style=flat-square" alt="Distributed Systems" />
   <img src="https://img.shields.io/badge/-Microservices-0f766e?style=flat-square" alt="Microservice Architectures" />
-  <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
+  <img src="https://img.shields.io/badge/Observability%20(OpenTelemetry)-7c3aed?style=flat-square&logo=opentelemetry&logoColor=white" alt="Observability (OpenTelemetry)" />
   <img src="https://img.shields.io/badge/-Traceability-0891b2?style=flat-square" alt="Traceability" />
   <img src="https://img.shields.io/badge/-gRPC-4285F4?style=flat-square" alt="gRPC" />
   <img src="https://img.shields.io/badge/-Async%20Messaging-ea580c?style=flat-square" alt="Asynchronous Messaging" />
