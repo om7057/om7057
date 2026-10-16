@@ -2,7 +2,7 @@
 
 <p align="center">
 Distributed Systems &nbsp;·&nbsp; Microservice Architectures &nbsp;·&nbsp; Observability &nbsp;·&nbsp; Traceability<br/>
-Golang &nbsp;·&nbsp; gRPC, event-driven architecture<br/>
+Golang &nbsp;·&nbsp; gRPC &amp; asynchronous messaging &nbsp;·&nbsp; systems-level networking and DB internals<br/>
 Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
 </p>
 
