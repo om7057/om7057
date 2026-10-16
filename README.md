@@ -1,9 +1,7 @@
 <h1 align="center">Om Kulkarni</h1>
 
 <p align="center">
-Distributed Systems &nbsp;·&nbsp; Microservice Architectures &nbsp;·&nbsp; Observability &nbsp;·&nbsp; Traceability<br/>
-Golang &nbsp;·&nbsp; gRPC &amp; asynchronous messaging &nbsp;·&nbsp; systems-level networking and DB internals<br/>
-Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
+Software Engineer &nbsp;|&nbsp; Open Source Contributor
 </p>
 
 <p align="center">
@@ -20,6 +18,10 @@ Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
   <img src="https://img.shields.io/badge/-Microservices-0f766e?style=flat-square" alt="Microservice Architectures" />
   <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
   <img src="https://img.shields.io/badge/-Traceability-0891b2?style=flat-square" alt="Traceability" />
+  <img src="https://img.shields.io/badge/-gRPC-4285F4?style=flat-square" alt="gRPC" />
+  <img src="https://img.shields.io/badge/-Async%20Messaging-ea580c?style=flat-square" alt="Asynchronous Messaging" />
+  <img src="https://img.shields.io/badge/-Networking-16a34a?style=flat-square" alt="Systems-Level Networking" />
+  <img src="https://img.shields.io/badge/-DB%20Internals-475569?style=flat-square" alt="DB Internals" />
 </p>
 
 ---
