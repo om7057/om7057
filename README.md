@@ -67,7 +67,16 @@
   <tr>
     <td align="center"><kbd><b>Languages</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=go,java,cpp,py&perline=2" height="110" /></td>
     <td align="center"><kbd><b>Databases</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,cassandra,mongodb&perline=2" height="110" /></td>
-    <td align="center"><kbd><b>Messaging &amp; Observability</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=2" height="110" /><img src="https://raw.githubusercontent.com/om7057/om7057/main/opentelemetry-tile.svg" height="55" alt="OpenTelemetry" /></td>
+    <td align="center">
+      <kbd><b>Messaging &amp; Observability</b></kbd><br/><br/>
+      <table><tr>
+        <td><img src="https://skillicons.dev/icons?i=kafka" height="55" /></td>
+        <td><img src="https://skillicons.dev/icons?i=grafana" height="55" /></td>
+      </tr><tr>
+        <td><img src="https://skillicons.dev/icons?i=prometheus" height="55" /></td>
+        <td><img src="https://raw.githubusercontent.com/om7057/om7057/main/opentelemetry-tile.svg" height="55" alt="OpenTelemetry" /></td>
+      </tr></table>
+    </td>
     <td align="center"><kbd><b>Infra &amp; Tooling</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,githubactions&perline=3" height="110" /></td>
   </tr>
 </table>
