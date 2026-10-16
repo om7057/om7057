@@ -1,8 +1,13 @@
-# Om Kulkarni
+<h1 align="center">Om Kulkarni</h1>
 
-Software Engineer · Open Source Contributor
+<p align="center">Software Engineer &middot; Open Source Contributor</p>
 
-[Portfolio](https://omkulkarni.me/) · [LinkedIn](https://www.linkedin.com/in/om7057/) · [Medium](https://medium.com/@om7057) · [X](https://x.com/kulkarniom7057)
+<p align="center">
+  <a href="https://omkulkarni.me/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/om7057/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://medium.com/@om7057"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://x.com/kulkarniom7057"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
