@@ -63,23 +63,14 @@ Software Engineer &nbsp;|&nbsp; Open Source Contributor
 
 ## Stack
 
-<p align="center">
-  <kbd><b>Languages</b></kbd>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=go,java,cpp,py&perline=4" height="48" />
-  <br/><br/>
-  <kbd><b>Databases</b></kbd>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,cassandra,mongodb&perline=4" height="48" />
-  <br/><br/>
-  <kbd><b>Messaging &amp; Observability</b></kbd>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=3" height="48" />
-  <br/><br/>
-  <kbd><b>Infra &amp; Tooling</b></kbd>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,githubactions&perline=5" height="48" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><kbd><b>Languages</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=go,java,cpp,py&perline=2" height="44" /></td>
+    <td align="center"><kbd><b>Databases</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,cassandra,mongodb&perline=2" height="44" /></td>
+    <td align="center"><kbd><b>Messaging &amp; Observability</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=2" height="44" /></td>
+    <td align="center"><kbd><b>Infra &amp; Tooling</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,githubactions&perline=3" height="44" /></td>
+  </tr>
+</table>
 
 ---
 
