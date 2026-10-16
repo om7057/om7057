@@ -2,6 +2,8 @@
 
 <p align="center">Software Engineer &middot; Open Source Contributor</p>
 
+<p align="center">I like figuring out why distributed systems fail quietly, and fixing it in the Go code underneath OpenTelemetry and Jaeger.</p>
+
 <p align="center">
   <a href="https://omkulkarni.me/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/om7057/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
