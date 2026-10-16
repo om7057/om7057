@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/-Distributed%20Systems-1d4ed8?style=flat-square" alt="Distributed Systems" />
   <img src="https://img.shields.io/badge/-Microservices-0f766e?style=flat-square" alt="Microservice Architectures" />
-  <img src="https://img.shields.io/badge/Observability%20(OpenTelemetry)-7c3aed?style=flat-square&logo=opentelemetry&logoColor=white" alt="Observability (OpenTelemetry)" />
+  <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
   <img src="https://img.shields.io/badge/-Traceability-0891b2?style=flat-square" alt="Traceability" />
   <img src="https://img.shields.io/badge/-gRPC-4285F4?style=flat-square" alt="gRPC" />
   <img src="https://img.shields.io/badge/-Async%20Messaging-ea580c?style=flat-square" alt="Asynchronous Messaging" />
@@ -67,7 +67,7 @@
   <tr>
     <td align="center"><kbd><b>Languages</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=go,java,cpp,py&perline=2" height="110" /></td>
     <td align="center"><kbd><b>Databases</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,cassandra,mongodb&perline=2" height="110" /></td>
-    <td align="center"><kbd><b>Messaging &amp; Observability</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=2" height="110" /></td>
+    <td align="center"><kbd><b>Messaging &amp; Observability</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&perline=2" height="110" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opentelemetry/opentelemetry-original.svg" height="55" alt="OpenTelemetry" /></td>
     <td align="center"><kbd><b>Infra &amp; Tooling</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,githubactions&perline=3" height="110" /></td>
   </tr>
 </table>
