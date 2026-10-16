@@ -38,8 +38,6 @@ Focused on **OpenTelemetry** and **Jaeger**, the observability and distributed-t
   </tr>
 </table>
 
-<p align="center"><sub>Earlier merged work also spans Jenkins, Liquibase, Prometheus, GoFr, Argo CD, HAMi, and Apicurio Registry, kept off this list while I narrow focus.</sub></p>
-
 ---
 
 ## Articles
