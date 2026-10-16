@@ -1,9 +1,9 @@
 <h1 align="center">Om Kulkarni</h1>
 
 <p align="center">
-Distributed Systems &nbsp;·&nbsp; Backend &nbsp;·&nbsp; Golang Microservices &nbsp;·&nbsp; Cloud &amp; DevOps<br/>
-Go, C++ &amp; Java, gRPC, event-driven architecture<br/>
-Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
+Distributed Systems &nbsp;·&nbsp; Microservice Architectures &nbsp;·&nbsp; Observability &nbsp;·&nbsp; Traceability<br/>
+Golang &nbsp;·&nbsp; gRPC, event-driven architecture<br/>
+Software Engineer &nbsp;·&nbsp; Contributor to OpenTelemetry &amp; Jaeger
 </p>
 
 <p align="center">
@@ -15,19 +15,17 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/-Distributed%20Systems-1d4ed8?style=flat-square" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/-Microservices-0f766e?style=flat-square" alt="Microservice Architectures" />
   <img src="https://img.shields.io/badge/-Observability-7c3aed?style=flat-square" alt="Observability" />
-  <img src="https://img.shields.io/badge/-Tracing-0891b2?style=flat-square" alt="Tracing" />
-  <img src="https://img.shields.io/badge/-Metrics%20Cardinality-ea580c?style=flat-square" alt="Metrics Cardinality" />
-  <img src="https://img.shields.io/badge/-Concurrency-16a34a?style=flat-square" alt="Concurrency" />
-  <img src="https://img.shields.io/badge/-Spec%20Compliance-475569?style=flat-square" alt="Spec Compliance" />
+  <img src="https://img.shields.io/badge/-Traceability-0891b2?style=flat-square" alt="Traceability" />
 </p>
 
 ---
 
 ## Open Source Work
+
+Focused on **OpenTelemetry** and **Jaeger**, the observability and distributed-tracing side of the CNCF landscape.
 
 <table align="center">
   <tr>
@@ -38,15 +36,9 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajaegertracing"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
     <td>Pagination, span search, ClickHouse query routing, marshaling fixes, UI component refactors</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajenkinsci"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" /></a></td>
-    <td>Thread-safety, deadlock fixes, circuit-breaker</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/liquibase/liquibase/pulls?q=is%3Apr+author%3Aom7057"><img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" /></a></td>
-    <td>Concurrency, shared-state, CSV parsing fixes</td>
-  </tr>
 </table>
+
+<p align="center"><sub>Earlier merged work also spans Jenkins, Liquibase, Prometheus, GoFr, Argo CD, HAMi, and Apicurio Registry, kept off this list while I narrow focus.</sub></p>
 
 ---
 
