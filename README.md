@@ -33,7 +33,7 @@
 <table align="center">
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Aopen-telemetry"><img src="https://img.shields.io/badge/OTel-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" /></a></td>
-    <td>Cardinality limits, spec compliance, and silent-failure fixes across the Go &amp; C++ SDKs - the work behind a Governing Committee election invite</td>
+    <td>Cardinality limits, spec compliance, and silent-failure fixes across the Go &amp; C++ SDKs, compile-time instrumentation, and semantic conventions</td>
   </tr>
   <tr>
     <td><a href="https://github.com/pulls?q=is%3Apr+author%3Aom7057+org%3Ajaegertracing"><img src="https://img.shields.io/badge/Jaeger-0891B2?style=for-the-badge&logo=jaeger&logoColor=white" /></a></td>
