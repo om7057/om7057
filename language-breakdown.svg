@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="760" viewBox="0 0 520 380" font-family="'Segoe UI', Ubuntu, Sans-Serif">
-  <rect width="520" height="380" rx="8" fill="#0a0a0b"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="760" viewBox="0 0 560 380" font-family="'Segoe UI', Ubuntu, Sans-Serif">
+  <rect width="560" height="380" rx="8" fill="#0a0a0b"/>
   <text x="26" y="38" fill="#60a5fa" font-size="18" font-weight="700">Languages by Contribution</text>
   <text x="26" y="60" fill="#71717a" font-size="12">Across 76 merged OSS pull requests</text>
 
@@ -22,7 +22,7 @@
   </g>
 
   <!-- donut -->
-  <g transform="translate(300, 75)">
+  <g transform="translate(320, 75)">
     <circle cx="100" cy="100" r="78" fill="none" stroke="#26262a" stroke-width="38"/>
     <g transform="rotate(-90 100 100)">
       <circle cx="100" cy="100" r="78" fill="none" stroke="#00ADD8" stroke-width="38"
