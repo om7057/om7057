@@ -83,6 +83,14 @@
 
 ---
 
+## Language Breakdown
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om7057/om7057/main/language-breakdown.svg" alt="Languages by contribution: Go 56.6%, Java 22.4%, C++ 14.5%, Other 5.3%, TypeScript 1.3%" />
+</p>
+
+---
+
 ## Contribution graph
 
 <p align="center">
