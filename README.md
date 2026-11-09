@@ -51,8 +51,8 @@
 **My New .me Domain Broke, But Only on My Wi-Fi**
 : [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
 
-**The Design Decisions That Separate Good Code From Great Code**
-: [Article](https://medium.com/@om7057/the-design-decisions-that-separate-good-code-from-great-code-ad8be3145108)
+**Security, Debugging, and the Stuff That Breaks at 2 AM**
+: [Article](https://medium.com/@om7057/security-debugging-and-the-stuff-that-breaks-at-2-am-20a5d4098853)
 
 ## Research
 
