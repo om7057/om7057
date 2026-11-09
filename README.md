@@ -45,14 +45,14 @@
 
 ## Articles
 
+**Software Craftsmanship Series**
+: [The Foundations That Nobody Talks About](https://medium.com/@om7057/the-foundations-that-nobody-talks-about-d78209ef7f4e) &nbsp;·&nbsp; The boring stuff every codebase quietly depends on.
+
 **Liquibase's Shared State Problem**
 : [Article](https://omkulkarni.me/blog/liquibase-shared-state-problem) &nbsp;·&nbsp; How a changelog-lock table and a logging context turned into two concurrency bugs, and why both fixes were the same move.
 
 **My New .me Domain Broke, But Only on My Wi-Fi**
 : [Article](https://omkulkarni.me/blog/me-domain-broke-on-wifi) &nbsp;·&nbsp; A debugging story that started with a domain switch and ended with my ISP's routers arguing with each other.
-
-**Security, Debugging, and the Stuff That Breaks at 2 AM**
-: [Article](https://medium.com/@om7057/security-debugging-and-the-stuff-that-breaks-at-2-am-20a5d4098853)
 
 ## Research
 
