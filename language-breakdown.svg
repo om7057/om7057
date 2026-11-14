@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="600" viewBox="0 0 440 300" font-family="'Segoe UI', Ubuntu, Sans-Serif">
   <rect width="440" height="300" rx="8" fill="#0a0a0b"/>
   <text x="22" y="36" fill="#60a5fa" font-size="30" font-weight="700">Languages</text>
-  <text x="22" y="58" fill="#71717a" font-size="16">82 merged OSS pull requests</text>
+  <text x="22" y="58" fill="#71717a" font-size="16">85 merged OSS pull requests</text>
 
   <!-- legend -->
   <g font-size="22" font-weight="600">
     <circle cx="30" cy="102" r="8" fill="#00ADD8"/>
-    <text x="48" y="110" fill="#e4e4e7">Go 57.3%</text>
+    <text x="48" y="110" fill="#e4e4e7">Go 58.8%</text>
 
     <circle cx="30" cy="140" r="8" fill="#ED8B00"/>
-    <text x="48" y="148" fill="#e4e4e7">Java 22.0%</text>
+    <text x="48" y="148" fill="#e4e4e7">Java 21.2%</text>
 
     <circle cx="30" cy="178" r="8" fill="#00599C"/>
-    <text x="48" y="186" fill="#e4e4e7">C++ 13.4%</text>
+    <text x="48" y="186" fill="#e4e4e7">C++ 12.9%</text>
 
     <circle cx="30" cy="216" r="8" fill="#6b7280"/>
-    <text x="48" y="224" fill="#e4e4e7">Other 4.9%</text>
+    <text x="48" y="224" fill="#e4e4e7">Other 4.7%</text>
 
     <circle cx="30" cy="254" r="8" fill="#3178C6"/>
     <text x="48" y="262" fill="#e4e4e7">TS 2.4%</text>
@@ -26,15 +26,15 @@
     <circle cx="55" cy="55" r="55" fill="none" stroke="#26262a" stroke-width="26"/>
     <g transform="rotate(-90 55 55)">
       <circle cx="55" cy="55" r="55" fill="none" stroke="#00ADD8" stroke-width="26"
-        stroke-dasharray="198.074 147.502" stroke-dashoffset="0"/>
+        stroke-dasharray="203.280 142.296" stroke-dashoffset="0"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#ED8B00" stroke-width="26"
-        stroke-dasharray="75.858 269.717" stroke-dashoffset="-198.074"/>
+        stroke-dasharray="73.181 272.395" stroke-dashoffset="-203.280"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#00599C" stroke-width="26"
-        stroke-dasharray="46.358 299.218" stroke-dashoffset="-273.932"/>
+        stroke-dasharray="44.721 300.854" stroke-dashoffset="-276.460"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#6b7280" stroke-width="26"
-        stroke-dasharray="16.857 328.718" stroke-dashoffset="-320.289"/>
+        stroke-dasharray="16.262 329.313" stroke-dashoffset="-321.182"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#3178C6" stroke-width="26"
-        stroke-dasharray="8.429 337.147" stroke-dashoffset="-337.147"/>
+        stroke-dasharray="8.131 337.444" stroke-dashoffset="-337.444"/>
     </g>
   </g>
 </svg>
