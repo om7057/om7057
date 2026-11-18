@@ -88,7 +88,7 @@
 <table align="center">
   <tr>
     <td align="center" width="35%">
-      <img src="https://raw.githubusercontent.com/om7057/om7057/main/language-breakdown.svg?v=6" width="300" alt="Languages by contribution: Go 60.2%, Java 20.5%, C++ 12.5%, Other 4.5%, TypeScript 2.3%" />
+      <img src="https://raw.githubusercontent.com/om7057/om7057/main/language-breakdown.svg?v=7" width="300" alt="Languages by contribution: Go 60.0%, Java 21.1%, C++ 12.2%, Other 4.4%, TypeScript 2.2%" />
     </td>
     <td align="center" width="65%">
       <img src="https://raw.githubusercontent.com/om7057/om7057/main/profile-3d-contrib/profile-night-green.svg" width="520" alt="3D contribution graph" />
