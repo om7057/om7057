@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="600" viewBox="0 0 440 300" font-family="'Segoe UI', Ubuntu, Sans-Serif">
   <rect width="440" height="300" rx="8" fill="#0a0a0b"/>
   <text x="22" y="36" fill="#60a5fa" font-size="30" font-weight="700">Languages</text>
-  <text x="22" y="58" fill="#71717a" font-size="16">90 merged OSS pull requests</text>
+  <text x="22" y="58" fill="#71717a" font-size="16">94 merged OSS pull requests</text>
 
   <!-- legend -->
   <g font-size="22" font-weight="600">
     <circle cx="30" cy="102" r="8" fill="#00ADD8"/>
-    <text x="48" y="110" fill="#e4e4e7">Go 60.0%</text>
+    <text x="48" y="110" fill="#e4e4e7">Go 61.7%</text>
 
     <circle cx="30" cy="140" r="8" fill="#ED8B00"/>
-    <text x="48" y="148" fill="#e4e4e7">Java 21.1%</text>
+    <text x="48" y="148" fill="#e4e4e7">Java 20.2%</text>
 
     <circle cx="30" cy="178" r="8" fill="#00599C"/>
-    <text x="48" y="186" fill="#e4e4e7">C++ 12.2%</text>
+    <text x="48" y="186" fill="#e4e4e7">C++ 11.7%</text>
 
     <circle cx="30" cy="216" r="8" fill="#6b7280"/>
-    <text x="48" y="224" fill="#e4e4e7">Other 4.4%</text>
+    <text x="48" y="224" fill="#e4e4e7">Other 4.3%</text>
 
     <circle cx="30" cy="254" r="8" fill="#3178C6"/>
-    <text x="48" y="262" fill="#e4e4e7">TS 2.2%</text>
+    <text x="48" y="262" fill="#e4e4e7">TS 2.1%</text>
   </g>
 
   <!-- donut -->
@@ -26,15 +26,15 @@
     <circle cx="55" cy="55" r="55" fill="none" stroke="#26262a" stroke-width="26"/>
     <g transform="rotate(-90 55 55)">
       <circle cx="55" cy="55" r="55" fill="none" stroke="#00ADD8" stroke-width="26"
-        stroke-dasharray="207.345 138.230" stroke-dashoffset="0"/>
+        stroke-dasharray="213.227 132.348" stroke-dashoffset="0"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#ED8B00" stroke-width="26"
-        stroke-dasharray="72.955 272.620" stroke-dashoffset="-207.345"/>
+        stroke-dasharray="69.850 275.725" stroke-dashoffset="-213.227"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#00599C" stroke-width="26"
-        stroke-dasharray="42.237 303.338" stroke-dashoffset="-280.300"/>
+        stroke-dasharray="40.440 305.136" stroke-dashoffset="-283.078"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#6b7280" stroke-width="26"
-        stroke-dasharray="15.359 330.216" stroke-dashoffset="-322.537"/>
+        stroke-dasharray="14.705 330.870" stroke-dashoffset="-323.517"/>
       <circle cx="55" cy="55" r="55" fill="none" stroke="#3178C6" stroke-width="26"
-        stroke-dasharray="7.679 337.896" stroke-dashoffset="-337.896"/>
+        stroke-dasharray="7.353 338.223" stroke-dashoffset="-338.223"/>
     </g>
   </g>
 </svg>
